@@ -46,7 +46,7 @@ func GetUserByID(w http.ResponseWriter, r *http.Request) {
 	var user models.User
 	db.First(&user, id)
 	if user.ID == 0 {
-		utils.RespondJSON(w, http.StatusNotFound, "User nor found")
+		utils.RespondJSON(w, http.StatusNotFound, "User not found")
 		return
 	}
 

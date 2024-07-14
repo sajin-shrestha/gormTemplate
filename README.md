@@ -25,7 +25,7 @@ To run the application locally, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/gormTemplate.git
-cd goromTemplate
+cd gormTemplate
 
 ```
 
